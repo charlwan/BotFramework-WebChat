@@ -34,6 +34,6 @@ jobs:
       if: always()
     - name: Archive bundle artifacts
       uses: actions/upload-artifact@v1
-
+      with:
         name: bundle
         path: packages/bundle/dist
